@@ -2,8 +2,8 @@ title: Xerge
 email: your-email@example.com
 description: >-
   Xerge is an AI engineering company that specifically targets brand new startups who need their technology built out but are lacking a technical cofounder and engineering resources to make it happen.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://duanehutchins.github.io/xerge" # the base hostname & protocol for your site
+baseurl: "/xerge" # the subpath of your site, e.g. /blog
+url: "https://duanehutchins.github.io" # the base hostname & protocol for your site
 theme: minima
 
 lsi: false
@@ -15,3 +15,9 @@ gist:
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
+
+defaults:
+  - scope:
+     path: "assets/images"
+    values:
+      image: true
